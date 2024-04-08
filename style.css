@@ -1,6 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  -webkit-font-smoothing: antialiased;  /* deixar fonts mais desenhadas fncuonar no chrome edge safari */
+  -moz-osx-font-smoothing: grayscale;   /*deixar fonts mais desenhadas fncuonar mo firefox */
+
 }
 
+:root {
+  font-family: "Source Serif 4", serif;
+}
+
+button{
+  font-weight: 500;
+}
