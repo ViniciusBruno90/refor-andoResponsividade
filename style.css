@@ -1,3 +1,5 @@
+/* aula 9 proxima */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@
 }
 
 :root {
-  font-family: "Source Serif 4", serif;
+  font-family: "Source Serif Pro", serif;
   font-size: 62.5%; /* aqui é igual a 10px*/
   --color-body: #a54328;
   --color-button: #a54328;
@@ -20,7 +22,22 @@ body {
   font-size: 1.6rem; /*aqui equivale a 16px*/
 }
 
+main{
+  max-width: 32rem;
+
+  margin-inline: auto;
+
+  padding: 5.6rem 4rem ;
+  box-sizing: content-box;
+}
+
+img{
+  width: 100%;
+}
+
+
 button {
+  font-family: "Source Serif 4", serif;
   font-weight: 500;
   background-color: var(--color-button);
 
@@ -38,10 +55,6 @@ h1,
 h2 {
   font-size: 2.8rem;
   line-height: 3.6rem;
-}
-
-h2 {
-  text-decoration: underline;
 }
 
 p,
